@@ -1,0 +1,76 @@
+#form_login_div{
+	opacity: 0.75;
+	display: block;
+}
+.form_login{
+	
+	margin: auto;
+	height: 350px;
+	width: 468px;
+	top: 80px;
+	left: 295px;
+	position: relative;
+	border-radius: 12px;
+	background: #fff;
+	text-align: center;
+	overflow: hidden;
+	padding: 52px 0px 0px 0px ;
+}
+.form_login span{
+	font-family:"微软雅黑";
+	font-size: 18px;
+	color: #000033;
+}
+.form_login input[type="text"]:focus,input[type="password"]:focus{
+	border-color:#2E8B57;
+}
+.form_login input,button{
+	margin: 16px auto;
+	outline: none;
+	border: 1px solid rgba(0,0,0,49);
+	background-clip: padding-box;
+	border-radius: 5px;
+	cursor:pointer;
+}
+.form_login input[type="button"]:hover,button:hover{
+	box-shadow: inset 0px 1px 0px #aab9f4;
+	margin-top: 19px;
+}
+
+#form_register_div{
+	opacity: 0.75;
+	display: none;
+}
+.form_register{
+	margin: auto;
+	height: 350px;
+	width: 468px;
+	top: 80px;
+	left: 295px;
+	position: relative;
+	border-radius: 12px;
+	background: #fff;
+	text-align: center;
+	overflow: hidden;
+	padding: 52px 0px 0px 0px ;
+}
+.form_register span{
+	font-family:"微软雅黑";
+	font-size: 18px;
+	color: #000033;
+}
+.form_register input[type="text"]:focus,input[type="password"]:focus{
+	border-color:#2E8B57;
+}
+.form_register input,button{
+	margin: 10px auto;
+	outline: none;
+	border: 1px solid rgba(0,0,0,49);
+	background-clip: padding-box;
+	border-radius: 5px;
+	cursor:pointer;
+}
+.form_register input[type="button"]:hover,button:hover{
+	box-shadow: inset 0px 1px 0px #aab9f4;
+	margin-top: 12px;
+}
